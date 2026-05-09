@@ -139,4 +139,4 @@ The author is NOT responsible for:
 ## 🌐 END OF DICLAIMER
 
 ** CLONE UNOCPL — ЛИЧНО ДЛЯ ВАС! **
-## 👇СНИЗУ БУДУТ ВАШИ ИЗМЕНЕНИЯ ##
+## 👇 BELOW WILL BE YOUR CHANGES ##
