@@ -24,23 +24,23 @@ We kill **99.99% of germs** (ordinary numbers). The remaining **0.01%** (numbers
 ## 📁 — This is the emoji for "Folder" Simply, a single folder
 ## 📑 — This is the emoji for "File" Simply, a single file, no folders 
 
-📦 unocpl/
-├ 📁src/
-│ └─ 📁kotlin/      # ⚡ Compiler Core (Kotlin)
-│ ├── 📁compiler/ # 🎛 Orchestrator (Pipeline.kt, Main.kt, CLI.kt)
-│ ├── 📁lexer/ # 🔤 Lexer
-│ │ ├── 📑Token.kt # case class/data class of tokens
-│ │ ├── 📑TokenType.kt # enum: ID, INT, STR, PLUS, EOF...
-│ │ └── 📑Scanner.kt # character parsing, position, errors
-│ ├── 📁parser/ # 🌳 Parser
-│ │ ├── 📑Parser.kt # recursive descent / Pratt / ANTLR
-│ │ ├── 📑Grammar.kt # priorities, associativity, rules
-│ │ └── 📑ParseError.kt # recovery, expected/found
-│ ├── 🗃ast/ # 🧩 A.S.D. Nodes
-│ │ ├── 📁nodes/ # Expr.kt, Stmt.kt, Decl.kt, Literal.kt...
-│ │ ├── 📁visitors/ # AstVisitor.kt, AstWalker.kt
-│ │ └── 📁printer/ # AstPrinter.kt (for debugging/dumping)
-│ ├── 📁semantic/ # 👁 Overseer / Semantics
+- 📦 unocpl/
+- ├ 📁src/
+- │ └─ 📁kotlin/      # ⚡ Compiler Core (Kotlin)
+- │ ├── 📁compiler/ # 🎛 Orchestrator (Pipeline.kt, Main.kt, CLI.kt)
+- │ ├── 📁lexer/ # 🔤 Lexer
+- │ │ ├── 📑Token.kt # case class/data class of tokens
+- │ │ ├── 📑TokenType.kt # enum: ID, INT, STR, PLUS, EOF...
+- │ │ └── 📑Scanner.kt # character parsing, position, errors
+- │ ├── 📁parser/ # 🌳 Parser
+- │ │ ├── 📑Parser.kt # recursive descent / Pratt / ANTLR
+- │ │ ├── 📑Grammar.kt # priorities, associativity, rules
+- │ │ └── 📑ParseError.kt # recovery, expected/found
+- │ ├── 🗃ast/ # 🧩 A.S.D. Nodes
+- │ │ ├── 📁nodes/ # Expr.kt, Stmt.kt, Decl.kt, Literal.kt...
+- │ │ ├── 📁visitors/ # AstVisitor.kt, AstWalker.kt
+- │ │ └── 📁printer/ # AstPrinter.kt (for debugging/dumping)
+- │ ├── 📁semantic/ # 👁 Overseer / Semantics
 │ │ ├── 📑ScopeResolver.kt # scopes, name bindings
 │ │ ├── 📑TypeChecker.kt # type inference/checking, coercion
 │ │ ├── 📑SymbolTable.kt # declaration storage
