@@ -25,45 +25,39 @@ We kill **99.99% of germs** (ordinary numbers). The remaining **0.01%** (numbers
 ## 📑 — This is the emoji for "File" Simply, a single file, no folders 
 
 📦 unocpl/
-├── 📁src/
-│   └── 📁kotlin/      # ⚡ Compiler Core (Kotlin)
+├ 📁src/
+│ └─ 📁kotlin/      # ⚡ Compiler Core (Kotlin)
 │ ├── 📁compiler/ # 🎛 Orchestrator (Pipeline.kt, Main.kt, CLI.kt)
 │ ├── 📁lexer/ # 🔤 Lexer
 │ │ ├── 📑Token.kt # case class/data class of tokens
 │ │ ├── 📑TokenType.kt # enum: ID, INT, STR, PLUS, EOF...
 │ │ └── 📑Scanner.kt # character parsing, position, errors
-│ │
 │ ├── 📁parser/ # 🌳 Parser
 │ │ ├── 📑Parser.kt # recursive descent / Pratt / ANTLR
 │ │ ├── 📑Grammar.kt # priorities, associativity, rules
 │ │ └── 📑ParseError.kt # recovery, expected/found
-│ │
 │ ├── 🗃ast/ # 🧩 A.S.D. Nodes
 │ │ ├── 📁nodes/ # Expr.kt, Stmt.kt, Decl.kt, Literal.kt...
 │ │ ├── 📁visitors/ # AstVisitor.kt, AstWalker.kt
 │ │ └── 📁printer/ # AstPrinter.kt (for debugging/dumping)
-│ │
 │ ├── 📁semantic/ # 👁 Overseer / Semantics
 │ │ ├── 📑ScopeResolver.kt # scopes, name bindings
 │ │ ├── 📑TypeChecker.kt # type inference/checking, coercion
 │ │ ├── 📑SymbolTable.kt # declaration storage
 │ │ └── 📑Validator.kt # "supervisor": flow control, unreachable, const folding
-│ │
 │ ├── 📁ir/ # ⚙️ Intermediate representation (opt.)
 │ │ ├── 📑IRNode.kt
 │ │ └── 📑Optimizer.kt # DCE, inlining, constant propagation
-│ │
 │ ├── 📁codegen/ # 🔨 Compiler / Backend
 │ │ ├── 📑Emitter.kt # common generation interface
 │ │ ├── 📑PythonTarget.kt # transcompilation to .py
 │ │ ├── 📑BytecodeTarget.kt # or JVM/LLVM/Wasm
 │ │ └── 📑Linker.kt # module merging, stdlib import
-│ │
 │ └── 📁runtime/ # 🏃 Runtime
 │ ├── 📑Builtins.kt # print, len, map, open...
 │ ├── 📑ObjectModel.kt # base types, dispatch, GC hooks
 │ └── 📑Panic.kt # runtime error handling
-│ # Next, only folders and/or files you added 😶‍🌫️ 
+│ # Next, only folders and/or files you added 😶‍🌫️
 └── ...
 
 It was alienated because I was too lazy to create empty folders and files 😒
