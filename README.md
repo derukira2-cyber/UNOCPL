@@ -137,5 +137,4 @@ The author is NOT responsible for:
 
 ## 🌐 END OF DICLAIMER
 
-** CLONE UNOCPL — ЛИЧНО ДЛЯ ВАС! **
-## 👇 BELOW WILL BE YOUR CHANGES ##
+** CLONE UNOCPL **
