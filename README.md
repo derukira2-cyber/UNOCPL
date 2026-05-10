@@ -22,7 +22,7 @@
 ## 📦 — This is the emoji for "Main folder, the root of the entire project"
 ## 🗃 — This is the emoji for "Folder with a subset of folders/files"
 ## 📁 — This is the emoji for "Folder" Simply, a single folder
-## 📑 — This is the emoji for "File" Simply, a single file, no folders 
+## 📑 — This is the emoji for "File" Simply, a single file 
 
 - 📦 unocpl/
 - ├ 📁src/
@@ -37,9 +37,10 @@
 - │ │ ├── 📑Grammar.kt # priorities, associativity, rules
 - │ │ └── 📑ParseError.kt # recovery, expected/found
 - │ ├── 🗃ast/ # 🧩 A.S.D. Nodes
-- │ │ ├── 📁nodes/ # Expr.kt, Stmt.kt, Decl.kt, Literal.kt...
-- │ │ ├── 📁visitors/ # AstVisitor.kt, AstWalker.kt
+- │ │ ├── 📁nodes/ # Expr.kt, Stmt.kt, Decl.kt, Literal.kt, BinaryExpressionNode.kt, VariableDeclarationNode.kt
+- │ │ ├── 📁visitors/ # AstVisitor.kt, AstWalker.kt, TypeCheckerVisitor.kt, CodeGeneratorVisitor.kt
 - │ │ └── 📁printer/ # AstPrinter.kt (for debugging/dumping)
+- │ │   └── 📑ASTPrinter.kt # recursively outputs the abstract tree in a human-readable form 
 - │ ├── 📁semantic/ # 👁 Overseer / Semantics
 - │ │ ├── 📑ScopeResolver.kt # scopes, name bindings
 - │ │ ├── 📑TypeChecker.kt # type inference/checking, coercion
@@ -110,7 +111,7 @@ The author is NOT responsible for:
     — This is a bare vessel, a skeleton, ribs, remnants, almost nothing — a programming language created purely from the idea of "What if..."
     )
 - 15. Updates (Don't worry — the date of the full version is "AFTER THE DEATH OF 64-BIT SYSTEMS", i.e., in about 290 million years. You won't live to see it!)
-- 16. Security (Seriously? This is completely Open Source. Here, security consists of: hiding unnecessary files, tons of documentation, tons of unnecessary indents, tons of comments read by NO ONE, a serious LOOK, pure BLUFF AND POMPOSITY✍️, 🥴)
+- 16. Security (Seriously? This is completely Open Source. Here, security consists of: hiding unnecessary files, tons of documentation, tons of unnecessary indents, tons of comments read by NO ONE, a serious LOOK, pure BLUFF AND POMPOSITY✍️)
 - 17. 🫡I FORBID EVERYONE FROM FORBIDDING ME ANYTHING (I SAID SO🕳💣)
 - 18. PROLIFERATION OF RULES (
     Markdown was created for this very purpose.
@@ -132,7 +133,7 @@ The author is NOT responsible for:
 - 2 Bad Internet — If the signal is weak, file downloads may be incomplete, especially hidden files that start with a dot, which aren't shown. If they aren't fully downloaded or lag during download due to bad internet... I am not responsible for the quality of your "Internet" — I don't sell it.
   )
 
-- 1. STUPID "Q&A" — They MUST BE PROLIFERATED! You can't invent idiot-proof protection, so "DETAILED EXPLANATIONS, WITHOUT EMBELLISHMENT" save the day better than all the policies that hide 67% of everything behind glass called "WEBSITES AND CONFIDENTIALITY" (I'm not swearing, but it's still a shame that anyone can come and rant about "LACK OF INFORMATION" — because the legal part often saves the creator themselves. But apparently not me🤔)
+- 1. STUPID "Question & Answer" — They MUST BE PROLIFERATED! You can't invent dummy-proof protection, so "DETAILED EXPLANATIONS, WITHOUT EMBELLISHMENT" save the day better than all the policies that hide 67% of everything behind glass called "WEBSITES AND CONFIDENTIALITY" (I'm not swearing, but it's still a shame that anyone can come and rant about "LACK OF INFORMATION" — because the legal part often saves the creator themselves. But apparently not me🤔)
 - 2. Misunderstood questions — I cannot answer them, due to lack of time (Learning English and lots of NONSENSE).
 
 ## 🌐 END OF DICLAIMER
