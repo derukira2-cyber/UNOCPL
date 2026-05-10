@@ -50,7 +50,6 @@
 - │ │ └── 📑Optimizer.kt # DCE, inlining, constant propagation
 - │ ├── 📁codegen/ # 🔨 Compiler / Backend
 - │ │ ├── 📑Emitter.kt # common generation interface
-- │ │ ├── 📑PythonTarget.kt # transcompilation to .py
 - │ │ ├── 📑BytecodeTarget.kt # or JVM/LLVM/Wasm
 - │ │ └── 📑Linker.kt # module merging, stdlib import
 - │ └── 📁runtime/ # 🏃 Runtime
